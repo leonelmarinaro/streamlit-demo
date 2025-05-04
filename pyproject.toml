@@ -6,7 +6,9 @@ authors = [{ name = "Pedro Lopez Mareque", email = "pedro.lopez.mareque@gmail.co
 requires-python = "~=3.12"
 readme = "README.md"
 license = "MIT"
-dependencies = []
+dependencies = [
+    "streamlit>=1.45.0",
+]
 
 [dependency-groups]
 test = [
